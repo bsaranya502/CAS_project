@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-07T13:57:25 IST" name="Suite" finished-at="2024-06-07T13:58:59 IST" duration-ms="93881">
+    <groups>
+    </groups>
+    <test started-at="2024-06-07T13:57:25 IST" name="Edge_Test" finished-at="2024-06-07T13:58:59 IST" duration-ms="93881">
+      <class name="testSuites.TestSuite_1">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testSuites.TestSuite_1@7e057f43]" started-at="2024-06-07T13:57:25 IST" name="setup" finished-at="2024-06-07T13:58:12 IST" duration-ms="46774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUser(java.lang.String)[pri:1, instance:testSuites.TestSuite_1@7e057f43]" started-at="2024-06-07T13:58:12 IST" name="validateUser" finished-at="2024-06-07T13:58:16 IST" duration-ms="4244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method signature="validateWelcomeMessage(java.lang.String)[pri:2, instance:testSuites.TestSuite_1@7e057f43]" started-at="2024-06-07T13:58:17 IST" name="validateWelcomeMessage" finished-at="2024-06-07T13:58:32 IST" depends-on-methods="testSuites.TestSuite_1.validateUser" duration-ms="15111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWelcomeMessage -->
+        <test-method signature="validateDefaultLanguageAndCountry(java.lang.String)[pri:3, instance:testSuites.TestSuite_1@7e057f43]" started-at="2024-06-07T13:58:32 IST" name="validateDefaultLanguageAndCountry" finished-at="2024-06-07T13:58:32 IST" depends-on-methods="testSuites.TestSuite_1.validateWelcomeMessage" duration-ms="334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDefaultLanguageAndCountry -->
+        <test-method signature="getLanguages(java.lang.String)[pri:4, instance:testSuites.TestSuite_1@7e057f43]" started-at="2024-06-07T13:58:32 IST" name="getLanguages" finished-at="2024-06-07T13:58:33 IST" depends-on-methods="testSuites.TestSuite_1.validateWelcomeMessage" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLanguages -->
+        <test-method signature="checkDetails(java.lang.String)[pri:5, instance:testSuites.TestSuite_1@7e057f43]" started-at="2024-06-07T13:58:33 IST" name="checkDetails" finished-at="2024-06-07T13:58:47 IST" depends-on-methods="testSuites.TestSuite_1.validateWelcomeMessage" duration-ms="14358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testSuites.TestSuite_1@7e057f43]" started-at="2024-06-07T13:58:47 IST" name="tearDown" finished-at="2024-06-07T13:58:59 IST" duration-ms="11134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testSuites.TestSuite_1 -->
+    </test> <!-- Edge_Test -->
+  </suite> <!-- Suite -->
+</testng-results>
